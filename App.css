@@ -1,0 +1,53 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+body {
+  background: #EDE1DD;
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar {
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  max-width: 1080px;
+  margin: 0 auto;
+  background: #171616;
+}
+
+.navbar h1 {
+  color: #EDE1DD;
+  margin: 0;
+  font-size: 24px;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 6px 10px;
+  font-size: 16px;
+  color: #ffffff;
+  transition: color 0.3s;
+  margin: 0 10px; /* Add margin around the text */
+}
+
+.navbar a:hover {
+  color: #d69224;
+}
+
+.content {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 20px;
+}
